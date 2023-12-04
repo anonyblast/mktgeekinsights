@@ -99,7 +99,7 @@ a {
   }
   100% {
     transform: scale(1.1);
-    filter: brightness(200%);
+    filter: brightness(150%);
   }
 }
 
