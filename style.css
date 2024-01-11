@@ -3,7 +3,7 @@ html {
     width: 100%;
     font-family: sans-serif;
     color: white;
-    background-color: #a239ca;
+    background-color: #ffffff;
 }
 
 header,
@@ -14,6 +14,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: black;
 }
 
 img {
@@ -26,7 +27,7 @@ img {
     width: 400PX;
     height: 50px;
     margin: 35px;
-    background-color: #54226C;
+    background-color: #0b0014;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -39,7 +40,7 @@ img {
     width: 400PX;
     height: 45px;
     margin: 35px;
-    background-color: #54226C;
+    background-color: #0b0014;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -54,21 +55,16 @@ a {
     padding: 20px;
 }
 
-/*
-.recommended-tag {
-    background-color: #3498db;
-    color: #fff;
-    font-size: 8px;
-    padding: 4px;
-    border-radius: 4px;
-    margin: 4px;
-    display: inline-block;
+footer > p > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  padding: 0;
 }
-*/
 
 .recommended-tag {
     background-color: #3498db;
-    color: #fff;
+    color: black;
     font-size: 8px;
     padding: 8px;
     border-radius: 4px;
@@ -105,7 +101,7 @@ a {
 }
 
 .item:hover, .item-hot:hover {
-    background-color: #93506d;
+    background-color: #97001e;
 }
 
 p {
